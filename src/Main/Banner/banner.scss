@@ -1,0 +1,48 @@
+@import '../../global/style.scss';
+
+
+
+.banner {
+    background: url('./Rectangle\ 2\ \(2\).png')center/cover no-repeat;
+    height: calc(100vh - 96px - 37px);
+    padding-top: 103px;
+    height: 663px;
+
+    &__info {
+        width: 545px;
+    }
+
+    h1 {
+        width: 577px;
+        font-size: 64px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 137%;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    button {
+        border-radius: 62px;
+        padding: 16px 54px;
+        width: 210px;
+        height: 52px;
+        background: $bg;
+        color: white;
+        margin: 32px 0 48px;
+    }
+
+    &__numbers {
+        display: flex;
+        column-gap: 64px;
+    }
+
+    &__card {
+        h3 {
+            font-weight: 700;
+            font-size: 40px;
+        }
+    }
+}

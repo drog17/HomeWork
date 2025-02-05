@@ -1,0 +1,36 @@
+@import '../Global/style.scss';
+
+
+.header{
+    &__top{
+        background: $bg;
+        color: white;
+        padding: 9px 0 10px;
+        text-align: center;
+        font-family: $satoshi, sans-serif;
+        a{
+            color: white;
+        }
+    }
+    &__menu{
+        padding: 24px 0;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            input{
+                width: 577px;
+                height: 48px;
+                background: #F0F0F0;
+                border: none;
+                border-radius: 13px;
+                padding-left: 52px;
+            }
+        }
+    }
+    &__lists{
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+    }
+}
